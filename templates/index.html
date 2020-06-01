@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Post a quote</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+<link href="{{url_for('static', filename='css/signin.css')}}" rel="stylesheet">
+
+<form class="form-signin" action="/post-quote" method="post">
+    <h6 class="h3 mb-3 font-weight-normal">Post a beautiful quote today</h6>
+
+    <label for="post_a_quote" class="sr-only">Post A Quote</label>
+    <input name="post_a_quote" type="text" id="post_a_quote" class="form-control" placeholder="Post A Quote" required
+           autofocus>
+
+    <label onabort="author" for="author" class="sr-only">Author</label>
+    <input name="author" type="text" id="author" class="form-control" placeholder="Author" required>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit a Quote</button>
+
+    <p class="mt-5 mb-3 text-muted">© TheBotBox 2020</p>
+</form>
+
+
+</body>
+</html>
