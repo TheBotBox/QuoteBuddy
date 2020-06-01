@@ -105,7 +105,6 @@ As I have made the `create-quote` api public, kindly do not post gibbrish quotes
 <a href="http://thebotbox.pythonanywhere.com/post-quote" target="_blank">Post your favorite quote</a>
 
 
-
 # License   
 ![alt tag](https://img.shields.io/github/license/mashape/apistatus.svg)  
 ```
