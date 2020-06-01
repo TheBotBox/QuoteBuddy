@@ -102,7 +102,7 @@ As I have made the `create-quote` api public, kindly do not post gibbrish quotes
 
 
 # Contributing   
-<a href="http://thebotbox.pythonanywhere.com/post-quote">Post your favorite quote</a>
+<a href="http://thebotbox.pythonanywhere.com/post-quote" target="_blank">Post your favorite quote</a>
 
 
 
