@@ -62,7 +62,7 @@ result:
 }
 ```  
 
-Error when Id is not found database:    
+Error when Id is not found in database:    
 `Status: 404`  
 ```json
 {
