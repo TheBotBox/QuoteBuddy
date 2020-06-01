@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, abort, make_response
+from flask import Flask, jsonify, request, abort, make_response, render_template
 import json
 from flask_sqlalchemy import SQLAlchemy
 import random
@@ -144,6 +144,24 @@ def clear_table():
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'error': 'Quote not found'}), 404)
+
+
+############################################
+# Post a quote -> GUI Panel
+############################################
+@app.route('/post-quote', methods=['GET', 'POST'])
+def post_quote():
+    if request.method == 'POST':
+        request_quote = request.form.get('post_a_quote')
+        request_author = request.form.get('author')
+
+        entry = Quotes(quote=request_quote, author=request_author)
+
+        db.session.add(entry)
+        db.session.commit()
+        return make_response(jsonify({'message': 'Quote updated successfully',
+                                      'quote_id': entry.id}), 200)
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
