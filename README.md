@@ -1,4 +1,4 @@
-<h1 align=center><a href="thebotbox.pythonanywhere.com/post-quote">QuoteBuddy</a></h1>
+<h1 align=center><a href="http://thebotbox.pythonanywhere.com/post-quote">QuoteBuddy</a></h1>
 <h4 align=center>API for one of the largest open source collection of Quotes for free </h4>   
 
 <img src= "https://user-images.githubusercontent.com/41512314/83441571-5e0fcc80-a464-11ea-883d-39f00985ee16.png"/>  
