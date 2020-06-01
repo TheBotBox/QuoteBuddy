@@ -90,27 +90,19 @@ result:
 }
 ```    
 
-## Humble Appeal    
-As I have made the `create-quote` api public, kindly do not post gibbrish quotes just for fun. You are allowed to post as many quotes you want but please don't post gibberish. Thanks 😀 
-
-
-
-
-
-
- 
-
-
-
-
 # To-dos   
 <ul>
   <li>Get all quotes</li>  
 </ul>
 
 
+## Humble Appeal    
+As I have made the `create-quote` api public, kindly do not post gibbrish quotes just for fun. You are allowed to post as many quotes you want but please don't post gibberish. Thanks 😀 
+
+
+
 # Contributing   
-Will soon be uploading GUI panel for posting quotes.
+<a href="http://thebotbox.pythonanywhere.com/post-quote">Post your favorite quote</a>
 
 
 
