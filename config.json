@@ -1,0 +1,10 @@
+{
+  "params": {
+    "username": "pythonanywhere's username",
+    "password": "database password",
+    "hostname": "somthing like this -> thebotbox.mysql.pythonanywhere-services.com",
+    "databasename": "databasename somthing like->username$databasename",
+    "clear_table_user_name": "credential needed for /clear-table api",
+    "clear_table_password": "creadential needed for /clear-table-api"
+  }
+}
