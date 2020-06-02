@@ -36,7 +36,7 @@ result :
 ```  
 
 ### ENDPOINT : `/get-random-quote`
-##### GET: `http://thebotbox.online/get-random-quote`    
+##### GET: `http://thebotbox.pythonanywhere.com/get-random-quote`    
 
 result: 
 `Status: 200`
@@ -50,7 +50,7 @@ result:
 ```    
 
 ### ENDPOINT : `/get-quote/<quote_id>`
-##### GET: `http://thebotbox.online/get-quote/3`     
+##### GET: `http://thebotbox.pythonanywhere.com/get-quote/3`     
 
 result: 
 `Status: 200`
@@ -72,7 +72,7 @@ Error when Id is not found in database:
 
 
 ### ENDPOINT : `/create-quote`
-##### POST: `http://thebotbox.online/create-quote`     
+##### POST: `http://thebotbox.pythonanywhere.com/create-quote`     
 
 #### Request: 
 ```json
